@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="novy projekt.css">
 </head>
 <body>
 
@@ -32,8 +33,33 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Přihlásit se</button>    
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="margin-right: 10px;">Přihlásit se</button>    
           </form>
+
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Cart
+          </button>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Cart Content
+      </div>
+      <div class="modal-footer">
+        <button type="button" style="background-color: red;" class="btn btn-primary">Vysypat košík</button>
+        <button type="button" style="background-color: green;" class="btn btn-primary">Přejít na platbu</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </nav>
 
@@ -46,13 +72,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day.jpg" alt="First slide,">
+            <img class="d-block w-50 mx-auto" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day.jpg" alt="First slide,">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day-3.jpg?w=1140" alt="Second slide">
+            <img class="d-block w-50 mx-auto" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day-3.jpg?w=1140" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day-4.jpg?w=1140" alt="Third slide">
+            <img class="d-block w-50 mx-auto" src="https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-1-mid-gs-pink-white-valentines-day-4.jpg?w=1140" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,40 +94,127 @@
  
       <div class="d-flex justify-content-around" style="margin-top: 50px;">
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="https://cdn.myshoptet.com/usr/www.sneakerstore.cz/user/shop/big/1020_air-jordan-4-retro-military-black-1-1000.png?6295db32" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Jordan 4, Military black</h5>
+              <p class="card-text">One of the most iconic retro 4's.</p>
+              <a href="#" class="btn btn-primary">Order</a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="https://onfeet.fra1.cdn.digitaloceanspaces.com/sneakers/2022/DX3805-100/Wmns-Air-Force-1-High-'White-University-Blue'-0.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">AirForce 1's High, University blue</h5>
+              <p class="card-text">One of the most unigender shoes ordered at this site.</p>
+              <a href="#" class="btn btn-primary">Order</a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="https://cdn.myshoptet.com/usr/www.sneakerbouee.cz/user/shop/big/219_air-jordan-1-mid-alternate-bred-toe-1-5000x.png?63922ca5" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Jordan 1's Mid, Red OG</h5>
+              <p class="card-text">One of the most iconic shoes of all time.</p>
+              <a href="#" class="btn btn-primary">Order</a>
             </div>
           </div>
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
+            <img class="card-img-top" src="https://cdn.myshoptet.com/usr/www.spikeprague.cz/user/shop/big/3903_jordan-1-retro-high-dior.png?6412569f" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Jordan 1's High, Dior</h5>
+              <p class="card-text">One of the most expensive Jordnas for a small price.</p>
+              <a href="#" class="btn btn-primary">Order</a>
             </div>
           </div>
 
 
 
       </div>
+
+      <div class="d-flex justify-content-around" style="margin-top: 750px;">
+
+<div class="container my-">
+
+  <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+
+  <div class="container p-4">
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+
+        <ul class="list-unstyled mb-4">
+          <li>
+            <a href="#!" class="text-white">About us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Collections</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Environmental philosophy</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Artist collaborations</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Assistance</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Contact us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Size Guide</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Shipping Information</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Returns & Exchanges</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Payment</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Careers</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Jobs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="email" id="form5Example2" class="form-control" />
+          <label class="form-label" for="form5Example2">Email address</label>
+        </div>
+
+        <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="text-center p-3 border-top border-white">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+
+</footer>
+
+</div>
+
+</div>
+
 
 </body>
